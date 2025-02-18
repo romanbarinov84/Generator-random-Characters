@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f4f4f4f4;
+}
+.container{
+    margin: 50px auto;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px 1px;
+    background-color: wheat;
+}
+
+.card{
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 12px 12px 2px rgba(0, 0, 0, .3);
+    text-align: left;
+}
+
+#avatar{
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+    border-radius: 50%;
+}
+
+strong{
+    font-size: 25px;
+    font-family: 'Lucida Sans',  sans-serif;
+}
+
+button{
+    padding: 30px 20px;
+    font-size: 25px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    background: lavender;
+    color: rgb(130, 183, 228);
+}
+button:active{
+    background-color: aliceblue;
+}
