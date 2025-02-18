@@ -46,3 +46,7 @@ button{
 button:active{
     background-color: aliceblue;
 }
+span{
+    margin-left: 20px;
+    font-size: 40px;
+}
